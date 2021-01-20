@@ -84,6 +84,7 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
                 }
             }
 
+            
             p1.setEjeY(y_ultima);
             p1.setEjeZ(event.values[2]);
             p1.Z = String.format("%.2f", p1.getEjeZ());
